@@ -1,0 +1,77 @@
+/* @page {
+    size: 7in 9.25in;
+    margin: 27mm 16mm 27mm 16mm;
+} */
+
+html,
+body {
+    height: 297mm;
+    width: 210mm;
+}
+
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    margin: 10px 0 10px 0;
+}
+
+h2 {
+    margin: 15px 0 15px 0;
+}
+
+
+#header {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+#image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    padding: 0 10px 0 10px;
+}
+
+.list-item {
+    padding: 15px;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.list-item-heading {
+    display: flex;
+    flex: auto;
+    gap: 40px;
+}
+
+.list-item-title {
+    margin: 0;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.tech-list {
+    margin: 15px;
+}
+
+code {
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    padding: 3px;
+}
